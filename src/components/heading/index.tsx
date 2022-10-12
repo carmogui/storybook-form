@@ -1,12 +1,12 @@
 import { HTMLAttributes } from "react";
 import * as S from "./styles";
 
-interface Props extends HTMLAttributes<HTMLSpanElement> {
+interface Props extends HTMLAttributes<HTMLHeadingElement> {
   size?: "small" | "medium" | "large";
   weight?: "light" | "regular" | "bold";
 }
 
-export function Text({
+export function Heading({
   size = "small",
   weight = "light",
   children,
