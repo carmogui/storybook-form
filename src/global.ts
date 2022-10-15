@@ -7,5 +7,6 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
 
     font-family: 'Inter', sans-serif;
+    font-weight: 400;
   }
 `;

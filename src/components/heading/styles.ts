@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 const fontSize = {
-  small: "20px",
-  medium: "22px",
-  large: "24px",
+  small: "24px",
+  medium: "28px",
+  large: "32px",
 };
 
 const fontWeight = {
