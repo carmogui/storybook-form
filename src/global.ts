@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import { color } from "./constants";
 
 export const GlobalStyle = createGlobalStyle`
   * {
@@ -8,5 +9,9 @@ export const GlobalStyle = createGlobalStyle`
 
     font-family: 'Inter', sans-serif;
     font-weight: 400;
+  }
+
+  body {
+    background-color: ${color.background.main};
   }
 `;
