@@ -1,2 +1,5 @@
-export { Text } from "./text";
-export { Heading } from "./heading";
+export * from "./button";
+export * from "./checkbox";
+export * from "./heading";
+export * from "./input";
+export * from "./text";
