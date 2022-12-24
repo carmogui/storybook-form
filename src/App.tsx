@@ -5,7 +5,9 @@ export function App() {
   return (
     <>
       <GlobalStyle />
-      <Text />
+      <Text weight="light">Fuuuuuu</Text>
+      <Text weight="regular">Fuuuuuu</Text>
+      <Text weight="bold">Fuuuuuu</Text>
     </>
   );
 }
