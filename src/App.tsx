@@ -1,13 +1,24 @@
 import { GlobalStyle } from "./global";
-import { Text } from "./components";
+import { Button, Checkbox, Heading, Input, Text } from "components";
 
 export function App() {
   return (
     <>
       <GlobalStyle />
-      <Text weight="light">Fuuuuuu</Text>
-      <Text weight="regular">Fuuuuuu</Text>
-      <Text weight="bold">Fuuuuuu</Text>
+
+      <div>
+        <Button>Button</Button>
+
+        <Checkbox />
+
+        <Heading>Heading</Heading>
+
+        <Input.Wrapper>
+          <Input.Input placeholder="input" />
+        </Input.Wrapper>
+
+        <Text>Text</Text>
+      </div>
     </>
   );
 }
