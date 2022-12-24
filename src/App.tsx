@@ -2,7 +2,6 @@ import { GlobalStyle } from "./global";
 import { Button, Checkbox, Heading, Input, Text } from "components";
 
 export function App() {
-  console.log("foo 2");
   return (
     <>
       <GlobalStyle />
